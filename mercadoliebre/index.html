@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Mercado Liebre</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel='stylesheet' type='text/css' media='screen' href='styles/styles.css'>
+</head>
+<body>
+    <header>
+        <section>
+            <i class='bx bx-menu'></i>
+            <img id="logo" src="img/MercadoLiebre-logo.png">
+            <i class='bx bx-search-alt-2'></i>
+            <a id="negro" href="registro/registro.html"><i class='bx bxs-user-circle'></i></a>
+        </section>
+    </header>
+
+    <main>
+        <section>
+            <section>
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="./img/banner1.png" class="d-block w-100">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./img/banner2.jpg" class="d-block w-100">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./img/banner3.png" class="d-block w-100">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </section>
+        </section>
+        <p class="titulos">Distrutá de nuestras ofertas de hoy</p>
+        <section id="cards">
+            <div>
+                <img src="./img/productos/SillaGamer.jpg">
+                <p><b>Silla Gamer $35000</b>
+                    <input class="comprar" value="Comprar" type="submit">
+                </p>
+            </div>
+            <div>
+                <img src="./img/productos/Gabinete gamer.jpg">
+                <p> <b>Gabinete Gamer $34500</b>
+                    <input class="comprar" value="Comprar" type="submit">
+                </p>
+            </div>
+            <div>
+                <img src="./img/productos/AuricularesGamer.jpg">
+                <p><b>Auriculares Gamer $7000</b>
+                    <input class="comprar" value="Comprar" type="submit">
+                </p>
+            </div>
+            <div>
+                <img src="./img/productos/Teclado y Mouse gamer.jpg">
+                <p><b>Combo Gamer $3000</b>
+                    <input class="comprar" value="Comprar" type="submit">
+                </p>
+            </div>
+        </section>
+
+        <p class="titulos">Productos Destacados</p>
+        <div id="destacados">
+            <div>
+                <img src="./img/productos/AuricularesGamer.jpg">
+                <p><b>Auriculares Gamer $7000</b>
+                    <input class="comprar" value="Comprar" type="submit">
+                </p>
+            </div>
+            <div>
+                <img src="./img/productos/Teclado y Mouse gamer.jpg">
+                <p><b> Teclado y Mouse Gamer $3000 </b>
+                    <input class="comprar" value="Comprar" type="submit">
+                </p>
+            </div>
+        </div>
+
+    </main>
+
+    <hr style="padding: 15px;">
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                    <p><strong>Seguinos</strong> <br> Facebook <br> Instagram <br> Youtube <br> LinkedIn</p>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                    <p><strong>Otros servicios</strong> <br> MercadoLiebre pago <br> MercadoLiebre Shops <br> Liebre Envios</p>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                    <p><strong>Trabaja con nosotros</strong></p> <input type="email" name="email" placeholder="Ingresa tu email"> <button class="comprar">Enviar</button>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src='scripts/app.js'></script>
+</body>
+</html>
